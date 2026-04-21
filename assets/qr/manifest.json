@@ -1,0 +1,55 @@
+{
+  "generated_for": "agentic-ai-information-integrity",
+  "base_pages_url": "https://aloth.github.io/agentic-ai-information-integrity/",
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "recommended_usage": {
+    "print": "Prefer SVG for posters and slides when possible.",
+    "presentation": "Use PNG for quick drop-in placement in PowerPoint, Keynote, or LaTeX.",
+    "quiet_zone": "Keep white space around the code and avoid placing text or graphics too close."
+  },
+  "items": [
+    {
+      "id": "hub-home",
+      "title": "Main Hub",
+      "description": "Top-level research hub landing page.",
+      "url": "https://aloth.github.io/agentic-ai-information-integrity/",
+      "png": "assets/qr/hub-home.png",
+      "svg": "assets/qr/hub-home.svg"
+    },
+    {
+      "id": "websci2026",
+      "title": "WebSci 2026",
+      "description": "Landing page for WebSci 2026 materials and related project links.",
+      "url": "https://aloth.github.io/agentic-ai-information-integrity/websci2026/",
+      "png": "assets/qr/websci2026.png",
+      "svg": "assets/qr/websci2026.svg"
+    },
+    {
+      "id": "phd-symposium",
+      "title": "PhD Symposium",
+      "description": "Landing page for the PhD symposium talk and follow-up resources.",
+      "url": "https://aloth.github.io/agentic-ai-information-integrity/phd-symposium/",
+      "png": "assets/qr/phd-symposium.png",
+      "svg": "assets/qr/phd-symposium.svg"
+    },
+    {
+      "id": "judgegpt",
+      "title": "JudgeGPT",
+      "description": "Landing page for JudgeGPT papers, demo, and research links.",
+      "url": "https://aloth.github.io/agentic-ai-information-integrity/judgegpt/",
+      "png": "assets/qr/judgegpt.png",
+      "svg": "assets/qr/judgegpt.svg"
+    },
+    {
+      "id": "origin-lens",
+      "title": "Origin Lens",
+      "description": "Landing page for Origin Lens app, paper, and provenance research links.",
+      "url": "https://aloth.github.io/agentic-ai-information-integrity/origin-lens/",
+      "png": "assets/qr/origin-lens.png",
+      "svg": "assets/qr/origin-lens.svg"
+    }
+  ]
+}
