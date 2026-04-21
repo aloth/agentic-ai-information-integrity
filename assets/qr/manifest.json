@@ -50,6 +50,22 @@
       "url": "https://aloth.github.io/agentic-ai-information-integrity/origin-lens/",
       "png": "assets/qr/origin-lens.png",
       "svg": "assets/qr/origin-lens.svg"
+    },
+    {
+      "id": "judgegpt-live-app",
+      "title": "JudgeGPT Live App",
+      "description": "Direct QR target for the live JudgeGPT demo.",
+      "url": "https://judgegpt.streamlit.app/",
+      "png": "assets/qr/judgegpt-live-app.png",
+      "svg": "assets/qr/judgegpt-live-app.svg"
+    },
+    {
+      "id": "origin-lens-app-store",
+      "title": "Origin Lens App Store",
+      "description": "Direct QR target for the Origin Lens iOS App Store page.",
+      "url": "https://apps.apple.com/us/app/origin-lens/id6756628121?platform=iphone",
+      "png": "assets/qr/origin-lens-app-store.png",
+      "svg": "assets/qr/origin-lens-app-store.svg"
     }
   ]
 }

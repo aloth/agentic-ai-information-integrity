@@ -20,6 +20,8 @@ They live in `assets/qr/` on purpose so they are versioned with the repo but are
 - `phd-symposium` → PhD symposium landing page
 - `judgegpt` → JudgeGPT landing page
 - `origin-lens` → Origin Lens landing page
+- `judgegpt-live-app` → JudgeGPT live demo
+- `origin-lens-app-store` → Origin Lens App Store page
 
 ## Formats
 
