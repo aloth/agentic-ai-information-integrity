@@ -77,6 +77,7 @@ Current pages:
 - `/websci2026/` - WebSci materials
 - `/judgegpt/` - JudgeGPT landing page
 - `/origin-lens/` - Origin Lens landing page
+- `/cred-1/` - CRED-1 dataset landing page, with the Trackless Links production integration and the WebSci 2026 free-codes campaign
 - `/phd-symposium/` - PhD Symposium page
 
 ## Datasets

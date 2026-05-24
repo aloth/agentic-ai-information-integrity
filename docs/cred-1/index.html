@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CRED-1 · Agentic AI &amp; Information Integrity</title>
+  <meta name="description" content="CRED-1: open multi-signal domain credibility dataset for automated pre-bunking of online misinformation. Paper, dataset, code, and production integrations." />
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>CRED-1</h1>
+      <p>An open, reproducible, multi-signal domain credibility dataset for automated pre-bunking of online misinformation. Designed for on-device, client-side deployment.</p>
+      <div class="nav">
+        <a href="../">Main Hub</a>
+        <a href="../websci2026/">WebSci 2026</a>
+        <a href="#paper">Paper</a>
+        <a href="#dataset">Dataset</a>
+        <a href="#use">In use</a>
+      </div>
+    </div>
+
+    <div class="section card">
+      <h2>About</h2>
+      <p>
+        <strong>CRED-1</strong> is a domain-level credibility dataset combining multiple openly-licensed source lists with computed enrichment signals: source labels, domain age, web popularity, fact-check frequency, and threat intelligence.
+        It provides credibility scores for <strong>2,672 domains</strong> known to publish mis- or disinformation, conspiracy theories, or other unreliable content.
+      </p>
+      <p>
+        Unlike server-side credibility services, CRED-1 is small enough to ship inside an application as a static JSON snapshot, which keeps lookups fully client-side and preserves privacy. The dataset, scoring pipeline, and source attribution are open and reproducible.
+      </p>
+      <div class="badges">
+        <span class="badge">Dataset</span>
+        <span class="badge">Credibility</span>
+        <span class="badge">Pre-bunking</span>
+        <span class="badge">On-device</span>
+        <span class="badge">CC BY 4.0</span>
+      </div>
+    </div>
+
+    <div class="section card" id="paper">
+      <h2>Paper</h2>
+      <p>
+        A. Loth, M. Kappes, and MO. Pahl. <em>CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation.</em> Preprint, 2026.
+      </p>
+      <p>
+        <a href="https://doi.org/10.2139/ssrn.6448466">doi.org/10.2139/ssrn.6448466</a>
+      </p>
+      <p>
+        The work is being presented at the <strong>18th ACM Web Science Conference (ACM WebSci 2026)</strong> in Braunschweig, Germany.
+      </p>
+    </div>
+
+    <div class="section" id="dataset">
+      <h2>Dataset, code, and citation</h2>
+      <div class="linkgrid">
+        <a class="linkcard" href="https://github.com/aloth/cred-1">
+          <strong>Repository</strong>
+          <span>Pipeline, codebook, and reproducibility scripts on GitHub.</span>
+        </a>
+        <a class="linkcard" href="https://doi.org/10.5281/zenodo.18769460">
+          <strong>Zenodo dataset</strong>
+          <span>Versioned CRED-1 dataset with DOI for citation.</span>
+        </a>
+        <a class="linkcard" href="https://github.com/aloth/cred-1/blob/main/CITATION.cff">
+          <strong>How to cite</strong>
+          <span>CITATION.cff with BibTeX-ready metadata.</span>
+        </a>
+        <a class="linkcard" href="https://github.com/aloth/cred-1/blob/main/CODEBOOK.md">
+          <strong>Codebook</strong>
+          <span>Field-level documentation of the dataset schema.</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="section card" id="use">
+      <h2>CRED-1 in production: Trackless Links</h2>
+      <p>
+        <strong>Trackless Links</strong> is the first production integration of CRED-1. The iOS and macOS Safari extension uses the bundled CRED-1 snapshot to warn users about low-credibility destinations on-device, with no server calls and no telemetry. Tracker stripping and credibility lookup happen in the same pass before the destination site is contacted.
+      </p>
+      <p>
+        To mark the WebSci 2026 presentation, free promo codes for Trackless Links are available for readers and conference attendees while supplies last.
+      </p>
+      <div class="linkgrid">
+        <a class="linkcard" href="https://github.com/aloth/trackless-links">
+          <strong>Trackless Links repo</strong>
+          <span>Public landing page, FAQ, screenshots, and user-facing issues.</span>
+        </a>
+        <a class="linkcard" href="https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone">
+          <strong>App Store</strong>
+          <span>Install Trackless Links on iPhone and iPad.</span>
+        </a>
+        <a class="linkcard" href="https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026">
+          <strong>Free codes (WebSci 2026)</strong>
+          <span>Claim a free promo code to try the app, no signup required.</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Related work</h2>
+      <div class="linkgrid two">
+        <a class="linkcard" href="https://arxiv.org/abs/2602.03423">
+          <strong>Origin Lens (preprint)</strong>
+          <span>On-device image provenance verification using C2PA and related signals. Companion paper at WebSci 2026.</span>
+        </a>
+        <a class="linkcard" href="https://arxiv.org/abs/2602.02100">
+          <strong>The Verification Crisis (preprint)</strong>
+          <span>Expert survey on GenAI disinformation threats and reproducible provenance.</span>
+        </a>
+        <a class="linkcard" href="../websci2026/">
+          <strong>WebSci 2026 hub page</strong>
+          <span>Combined landing page for the WebSci-facing research threads.</span>
+        </a>
+        <a class="linkcard" href="../">
+          <strong>Main research hub</strong>
+          <span>Program-level framing and the full set of related projects.</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
