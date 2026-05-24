@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trackless Links · Agentic AI &amp; Information Integrity</title>
+  <meta name="description" content="Trackless Links: privacy-first Safari extension and the first production integration of the CRED-1 domain credibility dataset. On-device tracker stripping and credibility warnings." />
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Trackless Links</h1>
+      <p>A privacy-first Safari extension for iOS and macOS. The first production deployment of <a href="../cred-1/">CRED-1</a> for on-device, client-side credibility warnings.</p>
+      <div class="nav">
+        <a href="../">Main Hub</a>
+        <a href="../cred-1/">CRED-1</a>
+        <a href="../websci2026/">WebSci 2026</a>
+        <a href="#how">How it works</a>
+        <a href="#try">Try it</a>
+      </div>
+    </div>
+
+    <div class="section card">
+      <h2>About</h2>
+      <p>
+        <strong>Trackless Links</strong> is a Safari extension that cleans tracking parameters from URLs and warns users about low-credibility destinations, entirely on-device. There are no server calls, no telemetry, and no account. The extension runs on iPhone, iPad, and Mac.
+      </p>
+      <p>
+        It serves as the first production integration of the <a href="../cred-1/">CRED-1</a> open multi-signal domain credibility dataset, demonstrating that source-level information integrity research can be deployed in real consumer software without sacrificing privacy.
+      </p>
+      <div class="badges">
+        <span class="badge">Safari extension</span>
+        <span class="badge">iOS &amp; macOS</span>
+        <span class="badge">On-device</span>
+        <span class="badge">No telemetry</span>
+        <span class="badge">CRED-1 integration</span>
+      </div>
+    </div>
+
+    <div class="section card" id="how">
+      <h2>How CRED-1 is integrated</h2>
+      <p>
+        CRED-1 is bundled with the app as a static JSON snapshot. When the Safari extension processes a URL, it performs three steps locally:
+      </p>
+      <ol>
+        <li>Strip known tracking parameters such as <code>utm_source</code>, <code>fbclid</code>, <code>gclid</code>, <code>mc_eid</code>, and similar markers before the destination site is contacted.</li>
+        <li>Look up the cleaned destination domain in the bundled CRED-1 snapshot.</li>
+        <li>If the domain is flagged as low-credibility, surface a lightweight warning in Safari so the user can decide whether to proceed.</li>
+      </ol>
+      <p>
+        Because CRED-1 ships inside the app, no URL ever leaves the device, no third party sees the user's browsing graph, and the entire credibility pipeline is auditable.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Project links</h2>
+      <div class="linkgrid">
+        <a class="linkcard" href="https://github.com/aloth/trackless-links">
+          <strong>Repository</strong>
+          <span>Public landing page, FAQ, screenshots, and user-facing issues.</span>
+        </a>
+        <a class="linkcard" href="https://apps.apple.com/us/app/trackless-links-extension/id6749830894?platform=iphone">
+          <strong>App Store (iPhone &amp; iPad)</strong>
+          <span>Install Trackless Links on iOS.</span>
+        </a>
+        <a class="linkcard" href="https://apps.apple.com/us/app/trackless-links-pro/id6754613166">
+          <strong>App Store (Mac universal)</strong>
+          <span>Install Trackless Links Pro for iPhone, iPad, and Mac.</span>
+        </a>
+        <a class="linkcard" href="https://gutscheinhub.de/ratgeber/trackless-links-cred-1-acm-websci-2026">
+          <strong>Free codes (WebSci 2026)</strong>
+          <span>Claim a free promo code while supplies last.</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="section card" id="try">
+      <h2>Research context</h2>
+      <p>
+        Trackless Links is the deployment partner for two strands of the broader research program:
+      </p>
+      <ul>
+        <li><strong>Source-level credibility</strong> via the <a href="../cred-1/">CRED-1</a> dataset and pre-bunking framework (preprint: <a href="https://doi.org/10.2139/ssrn.6448466">doi.org/10.2139/ssrn.6448466</a>).</li>
+        <li><strong>On-device verification infrastructure</strong> as a privacy-preserving alternative to cloud-based moderation, paralleling the <a href="../origin-lens/">Origin Lens</a> work on image provenance (<a href="https://arxiv.org/abs/2602.03423">arxiv.org/abs/2602.03423</a>).</li>
+      </ul>
+      <p>
+        Both projects share the same underlying argument: when synthetic media and manipulated sources become harder to distinguish from authentic content, trust must increasingly be supported by reproducible, on-device infrastructure rather than by centralized scoring services or intuition alone.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Related</h2>
+      <div class="linkgrid two">
+        <a class="linkcard" href="../cred-1/">
+          <strong>CRED-1 landing page</strong>
+          <span>The dataset, paper, code, and citation that power Trackless Links's credibility warnings.</span>
+        </a>
+        <a class="linkcard" href="../websci2026/">
+          <strong>WebSci 2026 hub page</strong>
+          <span>Combined landing page for the WebSci-facing research threads.</span>
+        </a>
+        <a class="linkcard" href="../origin-lens/">
+          <strong>Origin Lens</strong>
+          <span>Companion on-device verification project for image provenance.</span>
+        </a>
+        <a class="linkcard" href="../">
+          <strong>Main research hub</strong>
+          <span>Program-level framing and the full set of related projects.</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
