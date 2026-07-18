@@ -39,7 +39,7 @@ A privacy-first mobile framework for on-device image provenance verification usi
 
 - Repo: <https://github.com/aloth/origin-lens>
 - App: <https://apps.apple.com/us/app/origin-lens/id6756628121?platform=iphone>
-- Preprint: <https://arxiv.org/abs/2602.03423>
+- Paper (WebSci '26): <https://doi.org/10.1145/3795513.3806658>
 
 #### verification-crisis
 An expert survey on GenAI disinformation threats, reproducible provenance, and mitigation strategy preferences.
@@ -94,7 +94,7 @@ Current pages:
 - Industrialized Deception: The Collateral Effects of LLM-Generated Misinformation on Digital Ecosystems: <https://arxiv.org/abs/2601.21963>
 - Eroding the Truth-Default: A Causal Analysis of Human Susceptibility to Foundation Model Hallucinations and Disinformation in the Wild: <https://arxiv.org/abs/2601.22871>
 - The Verification Crisis: Expert Perceptions of GenAI Disinformation and the Case for Reproducible Provenance: <https://arxiv.org/abs/2602.02100>
-- Origin Lens: Reclaiming Trust on the AI-Mediated Web Through On-Device Image Provenance Verification: <https://arxiv.org/abs/2602.03423>
+- Origin Lens: Reclaiming Trust on the AI-Mediated Web Through On-Device Image Provenance Verification: <https://doi.org/10.1145/3795513.3806658>
 - CRED-1: An Open Multi-Signal Domain Credibility Dataset for Automated Pre-Bunking of Online Misinformation: <https://doi.org/10.2139/ssrn.6448466>
 
 ## Positioning
